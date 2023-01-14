@@ -69,7 +69,7 @@ class AutomationBattleCafe
             currentSweetContainer.appendChild(document.createElement("br"));
             currentSweetContainer.appendChild(document.createTextNode("Dusk (19:00 → 20:00)"));
             currentSweetContainer.appendChild(document.createElement("br"));
-            this.__internal__addInfo(sweetData, GameConstants.AlcremieSpins.at7Above10, currentSweetContainer);
+            this.__internal__addInfo(sweetData, GameConstants.AlcremieSpins.at5Above10, currentSweetContainer);
 
             currentSweetContainer.appendChild(document.createElement("br"));
             currentSweetContainer.appendChild(document.createTextNode("Night (19:00 → 5:00)"));
@@ -108,7 +108,7 @@ class AutomationBattleCafe
         {
             // Spin count info
             container.style.marginLeft = "10px";
-            if (spinType == GameConstants.AlcremieSpins.at7Above10)
+            if (spinType == GameConstants.AlcremieSpins.at5Above10)
             {
                 tooltip += "11 times or more "
                 summary += "11+";
